@@ -2,10 +2,9 @@ package io.learnstuff.sample;
 import java.util.Scanner;
 
 public class FirstClass {
-	
 	public static void main(String[] args) {		
 		String[] newArray = {"bunica","unchiul","sora"};		
-		//System.out.println("Hello world!");
+
 		System.out.print("Hello world! \n Rudele mele sunt: ");
 		for(String x: newArray){
 			System.out.print( "\n    "+ x);
