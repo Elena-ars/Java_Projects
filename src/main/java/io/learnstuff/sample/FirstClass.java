@@ -20,6 +20,7 @@ public class FirstClass {
         
         System.out.println("Suma acestor numere e : " + Sum(numar1,numar2));
     	System.out.print("\n Executia programului s-a terminat. ");
+    	System.out.print("\n Ultimul test. ");
 	}
 	
 	public static int Sum(int a, int b) {
