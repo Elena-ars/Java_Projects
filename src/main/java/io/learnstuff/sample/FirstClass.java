@@ -19,6 +19,7 @@ public class FirstClass {
         sc.close();
         
         System.out.println("Suma acestor numere e : " + Sum(numar1,numar2));
+    	System.out.print("\n Executia programului s-a terminat. ");
 	}
 	
 	public static int Sum(int a, int b) {
