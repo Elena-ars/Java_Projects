@@ -12,7 +12,7 @@ public class ArrayAssignment {
 			arrayToReverse[i] = arrayToReverse[noItems - i - 1];//put last item as first item and so on
 			arrayToReverse[noItems - i - 1] = temporaryItem;//put first item as last item and so on
 		}
-		return arrayToReverse;
+		return arrayToReverse; 
 	}
 	static String intArrayToString(int arrayInput[], int noItems) {
 		String allItems = "";
@@ -21,23 +21,6 @@ public class ArrayAssignment {
 		}
 		return allItems;
 	}
-	//	static char[] reverseCharArray(char arrayToReverse[], int noItems){//brute force reversing 
-	//		char[] reversedArray = new char[noItems];
-	//		int noReversedItems = noItems;
-	//		for (int i = 0; i < noItems; i++) {
-	//			reversedArray[noReversedItems - 1] = arrayToReverse[i];
-	//			noReversedItems = noReversedItems - 1;
-	//		}
-	//		return reversedArray;
-	//	}
-	//	static String charArrayToString(char arrayInput[], int noItems) {
-	//		String allItems = "";
-	//		for (int k = 0; k < noItems; k++) {
-	//			//allItems = allItems + " " + Character.toString(arrayToReverse[k]);
-	//			allItems = allItems.concat(Character.toString(arrayInput[k]));
-	//		}
-	//		return allItems;
-	//	}
 	static void bubbleSort(int arrayToSort[])
     {
         int arrayLength = arrayToSort.length;
@@ -151,9 +134,7 @@ public class ArrayAssignment {
 					for (int i=0; i<noItems; i++)   
 					{  
 						System.out.println(charsArray[i]);  
-					} 
-		//			ArrayAssignment.reverseCharArray(charsArray,noItems);//reverse the items of the array
-		//			System.out.println("Your inverted char items are: " + ArrayAssignment.charArrayToString(charsArray, noItems));  
+					}   
 				case 's':
 					String[] stringsArray = new String[noItems];  
 					String finalPhrase = "";
